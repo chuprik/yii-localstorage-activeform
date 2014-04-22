@@ -1,10 +1,10 @@
 # yii-localstorage-activeform
 
-`LSActiveForm` is a wrapper for [jquery_remember_state](https://github.com/shaneriley/jquery_remember_state).
+`LSActiveForm` is the wrapper for the [jquery_remember_state](https://github.com/shaneriley/jquery_remember_state).
 
 ## Usage
 
-Call the widget:
+Example:
 
 ```php
 <?php $form = $this->beginWidget('ext.yii-localstorage-activeform.LSActiveForm') ?>
@@ -55,7 +55,7 @@ Call the widget:
 
 ```
 
-Or call the widget with jquery_remember_state [options](https://github.com/shaneriley/jquery_remember_state#options):
+Example with jquery_remember_state [options](https://github.com/shaneriley/jquery_remember_state#options):
 
 ```php
 
