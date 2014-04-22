@@ -1,13 +1,13 @@
 # yii-localstorage-activeform
 
-`LSActiveForm` is the wrapper for the [jquery_remember_state](https://github.com/shaneriley/jquery_remember_state).
+`LocalStorageActiveForm` is the wrapper for the [jquery_remember_state](https://github.com/shaneriley/jquery_remember_state).
 
 ## Usage
 
 Example:
 
 ```php
-<?php $form = $this->beginWidget('ext.yii-localstorage-activeform.LSActiveForm') ?>
+<?php $form = $this->beginWidget('ext.yii-localstorage-activeform.LocalStorageActiveForm') ?>
 
 <div class="row">
     <?= $form->labelEx($model, 'textAttribute') ?>
@@ -59,7 +59,7 @@ Example with jquery_remember_state [options](https://github.com/shaneriley/jquer
 
 ```php
 
-<?php $form = $this->beginWidget('ext.yii-localstorage-activeform.LSActiveForm', array(
+<?php $form = $this->beginWidget('ext.yii-localstorage-activeform.LocalStorageActiveForm', array(
     'enableSaveToLocalStorage' => true, // Set false or closure for disable save
     'options' => array(
         'ignore' => array('Model[textAttribute]'),
